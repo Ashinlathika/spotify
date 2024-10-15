@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Music Player</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="music-player">
+    <div class="album-cover">
+      <img id="albumImage" src="https://via.placeholder.com/300" alt="Album Cover">
+    </div>
+
+    <div class="track-info">
+      <h2 id="trackTitle">Track Title</h2>
+      <h3 id="trackArtist">Artist Name</h3>
+    </div>
+
+    <audio id="audio" src="music/song1.mp3"></audio>
+
+    <div class="controls">
+      <button id="prevButton">⏮️</button>
+      <button id="playPauseButton">▶️</button>
+      <button id="nextButton">⏭️</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,15 @@
+/project-folder
+│
+├── /images
+│   ├── album1.jpg
+│   ├── album2.jpg
+│   └── album3.jpg
+│
+├── /music
+│   ├── song1.mp3
+│   ├── song2.mp3
+│   └── song3.mp3
+│
+├── index.html
+├── style.css
+└── script.js
